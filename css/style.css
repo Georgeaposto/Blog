@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body {
+	height: 100%;
+}
+
+nav li{
+	border-right: 2px solid #0ED82B;
+	padding: 0 5px;
+}
+
+nav li:last-child{
+	border: 0;
+}
+
+.pagination li{
+	border: 0;
+}
+
+.navbar{
+	border-bottom-style: solid;
+	border-color: #2D2BCF;
+	border-width: 2px;
+	
+}
+
+.navbar-brand img{
+	width: 80%;
+}
+	
+
+#cover {
+	background: #222 url(../images/stars.jpg) center center no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+img {
+	max-width: 100%;
+}
+#cover-caption {
+	width: 100%;
+}
+.section-content {
+	padding: 5rem 0;
+}
+#about {
+	background: url(../images/girlincar.jpg)center center no-repeat;
+	background-size: cover;
+}
+.about-text {
+	background: rgba(0,0,0,0.8);
+	color: #fff;
+	padding: 1.875rem;
+}
+
+.fa {
+	margin-right: 10px;
+	color: #406c96;
+	font-size: 1.5em;
+}
+.fa-lg {
+	font-size: 4em !important;
+}
+.content-icons {
+	text-align: center;
+}
+.content-icons h4 {
+	color: #406c96;
+}
+.content-icons i {
+	display: block;
+	margin-bottom: 25px;
+}
+
+#footer-main{
+	background: #222;
+	color: #fff;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+	
+}
+
+
